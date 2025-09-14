@@ -1,0 +1,99 @@
+print("Welcome to python")
+
+print("welcome") #this line prints the message/string given inside the function()
+
+a = 10 # a is variable 10 is value
+a = 12
+
+
+
+# operators 
+
+# arthmetic operator + - * / %
+a = 10
+b = 20
+ 
+print("value of a", a)
+print("value of b", b)
+
+print("addition ", a+b)
+print("sub ", a-b)
+print("mul ", a*b)
+print("div ", a/b)
+print("mod/remainder ", a%b)
+
+# comparsion operator > >= < <= == return true or false based on condition
+# > greater than
+# >= greater than or equal to
+# < less than
+# <= lessthen or equal to 
+
+
+age1 = 15 # assignement or initialization of value to variable
+age2 = 15
+
+print("comparsion operator")
+print(age1 >= age2) # 15 >= 15---> condition --positive -> true 
+print(age1 <= age2) # 15 <= 15---> condition -- positive -> true
+print(age1 == age2) # 15 == 15 ---> condition ->true
+
+
+a = input("provide the value of a ") 
+# input() ---> wait for user input at run time and initializes the value
+# default it consider every input as string
+# typecasting ---> converting one data type to another
+# typecasting ---> string to integer 
+
+# a char
+# anmol group of char --> string str
+
+b = input("provide the value of b ")
+ 
+print("value of a", a)
+print("value of b", b)
+
+print("addition ", int(a)+int(b))
+print("sub ", int(a)-int(b))
+print("mul ", int(a)*int(b))
+print("div ", int(a)/int(b))
+print("mod/remainder ", int(a)%int(b))
+
+
+
+
+
+
+
+
+a = int(input("provide the value of a "))
+# input() ---> wait for user input at run time and initializes the value
+# default it consider every input as string
+# typecasting ---> converting one data type to another
+# typecasting ---> string to integer 
+
+# a char
+# anmol group of char --> string str
+
+b = int(input("provide the value of b "))
+ 
+print("value of a", a)
+print("value of b", b)
+
+print("addition ", a+b)
+print("sub ", a-b)
+print("mul ", a*b)
+print("div ", a/b)
+print("mod/remainder ", a%b)
+
+
+
+# simple interest = (p*n*r)/100
+
+p = int(input("enter principal amount"))
+n = int(input("enter no of years"))
+r = int(input("enter rate of interet"))
+
+
+simple_interest = (p*n*r)/100
+
+print("Simple interest ",simple_interest)
