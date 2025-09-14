@@ -1,0 +1,52 @@
+print("Welcome to python")
+
+print("welcome") #this line prints the message/string given inside the function()
+
+a = 10 # a is variable 10 is value
+a = 12
+
+
+
+# operators 
+
+# arthmetic operator + - * / %
+a = 10
+b = 20
+ 
+print("value of a", a)
+print("value of b", b)
+
+print("addition ", a+b)
+print("sub ", a-b)
+print("mul ", a*b)
+print("div ", a/b)
+print("mod/remainder ", a%b)
+
+# comparsion operator > >= < <= == return true or false based on condition
+# > greater than
+# >= greater than or equal to
+# < less than
+# <= lessthen or equal to 
+
+
+age1 = 15
+age2 = 15
+
+print("comparsion operator")
+print(age1 >= age2) # 15 >= 15---> condition --positive -> true 
+print(age1 <= age2) # 15 <= 15---> condition -- positive -> true
+print(age1 == age2) # 15 == 15 ---> condition ->true
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
