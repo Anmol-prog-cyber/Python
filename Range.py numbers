@@ -1,0 +1,23 @@
+# Looping statement
+# to execute same statement for n number of times we use loop.
+# in Loop you can mention the condition how many time loop to be executed
+
+# 3 types of Loops
+# while Loop(entry check loop), do while loop (exit check loop), for loop
+# -----------------------------------
+# syntax for for loop
+     
+     #for variable in range(value):
+         #loop statement
+    
+#----------------------------  
+
+for index in range(1100): # range(1)---> 0,1,2,3,4,5,6,7,8,9,101,11,12
+    print("Anmol",index)
+
+
+
+
+
+
+  
